@@ -1,0 +1,298 @@
+
+.banner{
+  max-width: 1280px;
+ 
+  background-color: rgb(198, 228, 214);
+  border-radius: 24px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-button{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  padding: 17px, 34px, 17px, 34px;
+  background-color: rgb(0, 106, 80);
+  border-radius: 8px;
+  max-width: 270px;
+  max-height: 56px;
+}
+.banner-title{
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+}
+.banner-class{
+  max-width: 622px;
+  margin-left: 60px;
+  margin-top: 118px;
+  margin-bottom: 118px;
+}
+.banner-description{
+  margin-top: 44px;
+  font-size: 56px;
+  font-weight: 700;
+}
+.banner-image{
+  margin-right: 60px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 64px;
+}
+.pillar{
+  max-width: 1280px;
+}
+.pillar-class {
+  font-size: 40px;
+  font-size: 700;
+}
+.pillars-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  
+
+}
+.pillar p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+.card{
+  border-radius: 16px;
+padding: 24px, 24px, 24px, 24px;
+background-color: rgba(14, 14, 14, 0.15);
+}
+.card p{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.card h4{
+  margin-left: 24px;
+}
+.card img{
+  margin-left:24px;
+  margin-top: 24px;
+  
+}
+.vision p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+.vision{
+  
+    max-width: 1280px;
+  }
+  .Vision-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    }
+    .Vision-card p{
+      margin-left:24px;
+  margin-top: 24px;
+    }
+    .Vision-card h4{
+      margin-left:24px;
+  margin-top: 24px;
+    }
+    .Vision-card img{
+      margin-left:24px;
+      margin-top: 24px;
+      
+    }
+    .card1{
+      background-color: rgba(84, 144, 245, 0.2);
+      border-radius:16px ;
+    }
+    .card2{
+      background-color:rgb(198, 228, 214) ;
+      border-radius:16px ;
+    }
+    .card3{
+      background-color:rgb(247, 235, 207) ;
+      border-radius:16px ;
+     max-width: 410px;
+     max-height: 325px;
+
+    }
+    .card1 button{
+      margin-left: 32px;
+      margin-bottom: 32px;
+      border-radius: 8px;
+      background-color: rgb(84, 144, 245);
+      color: white;
+    }
+    .card2 button{
+      margin-left: 32px;
+      margin-bottom: 32px;
+      border-radius: 8px;
+      background-color:rgb(9, 161, 92);
+      color: white;
+    }
+    .card3 button{
+      margin-left: 32px;
+      margin-bottom: 32px;
+      border-radius: 8px;
+      background-color: rgb(255, 194, 57);
+      color: white;
+    }
+    .news{
+      max-width: 1280px;
+    }
+    .Satellite{
+      max-width: 1280px;
+      background-color: wheat;
+      border-radius: 24px;
+    }
+    .part{
+      display: flex;
+     
+    }
+    .satellite-image img{
+      border-radius: 24px;
+      margin-left: 48px;
+      margin-top: 48px;
+      width: 408px;
+      height: 306px;
+      margin-bottom: 48px;
+    }
+    .Satellite-item{
+      margin-top: 56px;
+      max-width: 744px;
+      height: 290px;
+      margin-left: 48px;
+      margin-bottom: 56px;
+    }
+    .satellite-button{
+      background-color: rgb(0, 106, 80);
+      color: white;
+      border-radius: 8px;
+      width:140px;
+      height: 48px;
+      font-size: 18px;
+      font-weight: 600;
+      border:none;
+      
+    }
+    .donation{
+      max-width: 1280px;
+      max-height: 464px;
+    }
+    #donate-title{
+      text-align: center;
+      font-weight: 700;
+      font-size: 40px;
+    }
+    #donate-description{
+      width: 1104px;
+      height: 48px;
+      margin-left: 88px;
+      font-size: 16px;
+      font-weight: 400;
+      color:rgba(14, 14, 14, 0.7);
+
+    }
+    .donate-button{
+      max-width:1071px ;
+      max-height: 128px;
+      margin-left:105px;
+      
+      display: flex;
+    gap: 24px;
+    }
+    .b1{
+      
+      color:black;
+      border-radius: 16px;
+      width:240px;
+      height: 128px;
+      font-size: 40px;
+      font-weight: 700;
+      border:none;
+      cursor: pointer;
+}
+
+.b1:hover{
+  background-color:rgb(0, 106, 80); 
+}
+       #b2{
+        background-color: rgb(198, 228, 214);
+        border-radius: 16px;
+      width:240px;
+      height: 128px;
+      font-size: 40px;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+       }
+       .Subscription{
+        max-width: 1280px;
+        height: 395px;
+        background-color: rgb(198, 228, 214);
+        border-radius:24px ;
+       padding: 80px, 100px, 80px, 100px;
+       }
+       #but{
+        
+  background-color:rgb(0, 106, 80); 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 151px;
+  height: 56px;
+font-size: 18px;
+font-weight: 600;
+       }
+       .sub-item{
+        width: 750px;
+        height: 235px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        margin-left: 265px;
+        margin-right: 265px;
+
+       }
+       .subs-title{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        
+
+       }
+       .subs-paragraph{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: rgba(14, 14, 14, 0.7);
+       }
+       #wb{
+background-color: rgb(255, 255, 255);
+border: none;
+border-radius:8px 0px 0px 8px ;
+color:rgba(14, 14, 14, 0.7); 
+width: 600px;
+height: 55px;
+font-size: 16px;
+font-weight: 400;
+
+       }
+       #gb{
+        background-color: rgb(0, 106, 80);
+border: none;
+border-radius:0px 8px 8px 0px;
+color:white; 
+width: 150px;
+height: 55px;
+font-size: 18px;
+font-weight: 600;
+       }
+
+       .image-container {
+        justify-content: flex-start;
+       
+        align-items: flex-start; 
+       gap:23px
+    }
