@@ -308,13 +308,7 @@ body {
   background-color: rgb(0, 106, 80);
 }
 
-    butt{
-   
-     width: 151px;
-      height: 56px;
-      border-radius: 8px;
-      background-color: rgb(0, 106, 80);
-  }
+    
    
   
  
@@ -343,7 +337,7 @@ body {
   align-items: center;
 }
 
-#but {
+.butt {
 
   background-color: rgb(0, 106, 80);
   color: white;
@@ -458,4 +452,14 @@ body {
 }
 .updater-description{
     margin-bottom: 25px;
+}
+.quote{
+  color:rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+}
+.quote-owner-status{
+  color:rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
 }
