@@ -5,6 +5,7 @@ body {
 
 .banner {
   max-width: 1280px;
+max-height: 560px;
 
   background-color: rgb(198, 228, 214);
   border-radius: 24px;
@@ -131,24 +132,31 @@ body {
 .card1 {
   background-color: rgba(84, 144, 245, 0.2);
   border-radius: 16px;
+  width: 411px;
+  height: 325px;
+
 }
 
 .card2 {
   background-color: rgb(198, 228, 214);
   border-radius: 16px;
+  width: 411px;
+  height: 325px;
+
 }
 
 .card3 {
   background-color: rgb(247, 235, 207);
   border-radius: 16px;
-  max-width: 410px;
+  max-width: 411px;
   max-height: 325px;
 
 }
 
 .card1 button {
+ 
   margin-left: 32px;
-  margin-bottom: 32px;
+ padding: 11px, 20px, 11px, 20px;
   border-radius: 8px;
   background-color: rgb(84, 144, 245);
   color: white;
@@ -157,11 +165,12 @@ body {
   height: 41px;
   font-weight: 600;
   font-size: 16px;
+  
 }
 
 .card2 button {
   margin-left: 32px;
-  margin-bottom: 32px;
+  padding: 11px, 20px, 11px, 20px;
   border-radius: 8px;
   background-color: rgb(9, 161, 92);
   color: white;
@@ -170,11 +179,14 @@ body {
   height: 41px;
   font-weight: 600;
   font-size: 16px;
+ 
+  
+  
 }
 
 .card3 button {
   margin-left: 32px;
-  margin-bottom: 32px;
+  padding: 11px, 20px, 11px, 20px;
   border-radius: 8px;
   background-color: rgb(255, 194, 57);
   color: white;
@@ -196,7 +208,7 @@ body {
 
 .Satellite {
   max-width: 1280px;
-  background-color: wheat;
+  background-color:rgba(131, 127, 127, 0.15);
   border-radius: 24px;
 }
 
@@ -433,7 +445,7 @@ body {
 
 .quote-section {
 
-    background-color: #FFFFFF;
+     background-color:rgba(131, 127, 127, 0.15);;
     border-radius: 16px;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
@@ -462,4 +474,11 @@ body {
   color:rgba(14, 14, 14, 0.8);
   font-size: 16px;
   font-weight: 400;
+}
+
+.open-sans {
+  font-family: "Open Sans";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
