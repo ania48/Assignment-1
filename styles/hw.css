@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.fira-sans {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
 body {
   padding: 0px 160px;
+  background-color: #F5F5F5;
 }
 
 
 .banner {
   max-width: 1280px;
-max-height: 560px;
+  max-height: 560px;
 
   background-color: rgb(198, 228, 214);
   border-radius: 24px;
@@ -154,18 +161,18 @@ max-height: 560px;
 }
 
 .card1 button {
- 
+
   margin-left: 32px;
- padding: 11px, 20px, 11px, 20px;
+  padding: 11px, 20px, 11px, 20px;
   border-radius: 8px;
   background-color: rgb(84, 144, 245);
   color: white;
-  border:none;
-  width:122px;
+  border: none;
+  width: 122px;
   height: 41px;
   font-weight: 600;
   font-size: 16px;
-  
+
 }
 
 .card2 button {
@@ -174,14 +181,14 @@ max-height: 560px;
   border-radius: 8px;
   background-color: rgb(9, 161, 92);
   color: white;
-  border:none;
-  width:122px;
+  border: none;
+  width: 122px;
   height: 41px;
   font-weight: 600;
   font-size: 16px;
- 
-  
-  
+
+
+
 }
 
 .card3 button {
@@ -190,8 +197,8 @@ max-height: 560px;
   border-radius: 8px;
   background-color: rgb(255, 194, 57);
   color: white;
-  border:none;
-  width:122px;
+  border: none;
+  width: 122px;
   height: 41px;
   font-weight: 600;
   font-size: 16px;
@@ -200,7 +207,8 @@ max-height: 560px;
 .News {
   max-width: 1280px;
 }
-.news{
+
+.news {
   font-size: 16px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
@@ -208,7 +216,7 @@ max-height: 560px;
 
 .Satellite {
   max-width: 1280px;
-  background-color:rgba(131, 127, 127, 0.15);
+  background-color: rgba(131, 127, 127, 0.15);
   border-radius: 24px;
 }
 
@@ -216,22 +224,26 @@ max-height: 560px;
   display: flex;
 
 }
-.satellite-title{
+
+.satellite-title {
   font-size: 32px;
   font-weight: 700;
   color: rgba(14, 14, 14, 0.8);
 
 }
-.time{
+
+.time {
   font-size: 16px;
   font-weight: 400;
-  color:rgba(14, 14, 14, 0.7) ;
+  color: rgba(14, 14, 14, 0.7);
 }
-.satellite-paragraph{
+
+.satellite-paragraph {
   font-size: 16px;
   font-weight: 400;
-  color:rgba(14, 14, 14, 0.7) ;
+  color: rgba(14, 14, 14, 0.7);
 }
+
 .satellite-image img {
   border-radius: 24px;
   margin-left: 48px;
@@ -278,21 +290,17 @@ max-height: 560px;
 }
 
 #donate-description {
-  width: 1104px;
+  width: 1110px;
   height: 48px;
-  margin-left: 88px;
+  padding: 0px 88px;
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
   color: rgba(14, 14, 14, 0.7);
 
-  
+
 }
-#donate-disc{
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(14, 14, 14, 0.7);
-  align-items: center;
-}
+
 
 .donate-button {
   max-width: 1071px;
@@ -320,11 +328,11 @@ max-height: 560px;
   background-color: rgb(0, 106, 80);
 }
 
-    
-   
-  
- 
-  
+
+
+
+
+
 
 #b2 {
   background-color: rgb(198, 228, 214);
@@ -432,7 +440,9 @@ max-height: 560px;
   height: 64px;
   margin-left: 124px;
   font-size: 400;
+  border: none;
   font-weight: 20px;
+  background-color: #FFFFFF;
   color: rgba(14, 14, 14, 0.3);
 
 
@@ -445,40 +455,39 @@ max-height: 560px;
 
 .quote-section {
 
-     background-color:rgba(131, 127, 127, 0.15);;
-    border-radius: 16px;
-    background-image: url("../assets/quote-bg.png");
-    background-repeat: no-repeat;
-    background-position: 24px 30px;
-    padding: 48px 24px;
+  background-color: rgba(131, 127, 127, 0.15);
+  ;
+  border-radius: 16px;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 24px 30px;
+  padding: 48px 24px;
 }
 
 .quote-owner {
-    font-weight: 600;
-    font-size: 20px;
-    color: rgba(14, 14, 14, 0.8);
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
 }
 
 .all-news-description {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
-.updater-description{
-    margin-bottom: 25px;
+
+.updater-description {
+  margin-bottom: 25px;
 }
-.quote{
-  color:rgba(14, 14, 14, 0.8);
-  font-size: 16px;
-  font-weight: 400;
-}
-.quote-owner-status{
-  color:rgba(14, 14, 14, 0.8);
+
+.quote {
+  color: rgba(14, 14, 14, 0.8);
   font-size: 16px;
   font-weight: 400;
 }
 
-.open-sans {
-  font-family: "Open Sans";
-  font-optical-sizing: auto;
+.quote-owner-status {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
   font-weight: 400;
-  font-style: normal;
 }
+
+
